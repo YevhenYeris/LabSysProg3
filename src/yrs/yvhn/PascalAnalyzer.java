@@ -9,17 +9,6 @@ import java.util.List;
 
 public class PascalAnalyzer {
 
-    /*
-    – числа (десяткові, з плаваючою крапкою, шістнадцяткові),
-    – рядкові та символьні константи,
-    – директиви препроцесора,
-    – коментарі,
-    – зарезервовані слова,
-    – оператори,
-    – розділові знаки,
-    – ідентифікатори.
-     */
-
     private int _currSymb = 0;
     private String _currToken = "undefined";
     private String _currLexem = "undefined";
